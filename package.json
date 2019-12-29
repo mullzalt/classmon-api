@@ -1,6 +1,9 @@
 {
   "name": "classmon-api",
   "version": "1.0.0",
+  "engines": {
+    "node": "12.13.0"
+  },
   "description": "",
   "main": "server.js",
   "dependencies": {
@@ -13,6 +16,7 @@
     "jsonwebtoken": "^8.5.1",
     "jwt": "^0.2.0",
     "mongoose": "^5.8.2",
+    "nodemon": "^2.0.2",
     "validator": "^12.1.0"
   },
   "devDependencies": {},
