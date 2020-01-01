@@ -3,12 +3,12 @@ const Schema = mongoose.Schema;
 
 const prodiSchema = new Schema({
     nama: {
-        type: String, 
+        type: String,
         required: true
     },
     fakultas: {
-        ref: 'Fakultas',
-        type: mongoose.Schema.Types.ObjectId
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'Fakultas'
     }
 })
 
